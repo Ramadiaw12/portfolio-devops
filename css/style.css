@@ -287,7 +287,8 @@ a {
   margin-bottom: 60px;
 }
 
-.propos h1 {
+.propos h1,
+.propos h2 {
   font-size: 48px;
   font-weight: 800;
   color: #7cf03d;
@@ -297,7 +298,8 @@ a {
   letter-spacing: 2px;
 }
 
-.propos h1::after {
+.propos h1::after,
+.propos h2::after {
   content: '';
   position: absolute;
   bottom: -14px;
@@ -420,7 +422,8 @@ a {
   margin-bottom: 60px;
 }
 
-.portfolio-header h1 {
+.portfolio-header h1,
+.portfolio-header h2 {
   font-size: 48px;
   color: #7cf03d;
   font-weight: 800;
@@ -431,7 +434,8 @@ a {
   margin-bottom: 18px;
 }
 
-.portfolio-header h1::after {
+.portfolio-header h1::after,
+.portfolio-header h2::after {
   content: '';
   position: absolute;
   bottom: -14px;
@@ -689,7 +693,8 @@ a {
   background: #1f242d;
 }
 
-#projects h1 {
+#projects h1,
+#projects h2 {
   font-size: 48px;
   color: #7cf03d;
   text-align: center;
@@ -702,7 +707,8 @@ a {
   width: 100%;
 }
 
-#projects h1::after {
+#projects h1::after,
+#projects h2::after {
   content: '';
   position: absolute;
   bottom: -14px;
@@ -972,7 +978,8 @@ a {
   margin-bottom: 60px;
 }
 
-.MONcontact h1 {
+.MONcontact h1,
+.MONcontact h2 {
   font-size: 48px;
   color: #7cf03d;
   font-weight: 800;
@@ -982,7 +989,8 @@ a {
   display: inline-block;
 }
 
-.MONcontact h1::after {
+.MONcontact h1::after,
+.MONcontact h2::after {
   content: '';
   position: absolute;
   bottom: -14px;
@@ -1438,7 +1446,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
   .soft-skill-mini { flex-direction: row; width: 100%; max-width: 240px; justify-content: flex-start; }
   #about, #portfolio, #projects, .skills, #contact { padding: 50px 5%; }
   
-  .portfolio-header h1 {
+  .portfolio-header h1,
+  .portfolio-header h2 {
   font-size: 26px;
   padding: 0 10px;
   word-break: break-word;
@@ -1476,7 +1485,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
 }
 
 /* CONTACT UPDATE */
-.MONcontact h1 {
+.MONcontact h1,
+.MONcontact h2 {
   font-size: 30px;
   letter-spacing: 0.5px;
   line-height: 1.2;
@@ -1523,7 +1533,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
   margin-bottom: 60px;
 }
 
-#experience .section-header h1 {
+#experience .section-header h1,
+#experience .section-header h2 {
   font-size: 48px;
   color: #7cf03d;
   font-weight: 800;
@@ -1533,7 +1544,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
   display: inline-block;
 }
 
-#experience .section-header h1::after {
+#experience .section-header h1::after,
+#experience .section-header h2::after {
   content: '';
   position: absolute;
   bottom: -14px;
@@ -1696,7 +1708,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
   .timeline-left { text-align: left; flex-direction: row; align-items: center; }
   .timeline-right::before { display: none; }
   #experience { padding: 60px 5%; }
-  #experience .section-header h1 { font-size: 36px; }
+  #experience .section-header h1,
+  #experience .section-header h2 { font-size: 36px; }
 }
 
 @media (max-width: 480px) {
@@ -1732,7 +1745,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
   .home-img .img-box::before,
   .home-img .img-box::after { width: 210px; height: 210px; }
 
-  .portfolio-header h1 {
+  .portfolio-header h1,
+  .portfolio-header h2 {
   font-size: 22px;
 }
 
@@ -1933,7 +1947,8 @@ textarea.interior { min-height: 140px; resize: vertical; line-height: 1.7; }
   }
 
   #experience { padding: 60px 5%; }
-  #experience .section-header h1 { font-size: 36px; }
+  #experience .section-header h1,
+  #experience .section-header h2 { font-size: 36px; }
 
   .presentation-text p {
     text-align: left;
