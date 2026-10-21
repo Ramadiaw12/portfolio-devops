@@ -48,7 +48,7 @@ class TestStructureHTML(unittest.TestCase):
         self.page = analyser()
 
     def test_sections_obligatoires(self):
-        for section in ["accueil", "apropos", "competences", "projets", "contact"]:
+        for section in ["accueil", "apropos", "competences", "projects", "contact"]:
             with self.subTest(section=section):
                 self.assertIn(section, self.page.ids, f"Section absente : #{section}")
 
