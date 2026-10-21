@@ -2699,3 +2699,14 @@ opacity:1;
 }
 /* BMES PROJECTS UPDATE */
 
+.github-username {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #6ef05d;
+    background: rgba(110, 245, 106, 0.12);
+    padding: 8px 14px;
+    border-radius: 8px;
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+}
