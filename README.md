@@ -19,7 +19,7 @@
 
 ## 📖 À propos
 
-Ce dépôt est le livrable de l'**Atelier DevOps**. L'objectif : prendre un site portfolio statique (HTML, CSS, JavaScript) et lui appliquer toute la chaîne DevOps, **de `git push` jusqu'à la mise en ligne**, sans aucune intervention manuelle.
+Ce dépôt est le livrable de l'**Atelier DevOps**. L'objectif : prendre un site portfolio et lui appliquer toute la chaîne DevOps, **de `git push` jusqu'à la mise en ligne**, sans aucune intervention manuelle.
 
 Chaque modification poussée sur `main` déclenche automatiquement :
 
@@ -28,7 +28,7 @@ Chaque modification poussée sur `main` déclenche automatiquement :
 3. le **déploiement** sur GitHub Pages,
 4. *(optionnel)* la **publication** de l'image sur Docker Hub.
 
-> Le site lui-même est le portfolio de **Ramatoulaye Diawane**, AI Infrastructure Engineer.
+> Le site lui-même est mon portfolio : **Ramatoulaye Diawane**, AI Infrastructure Engineer.
 
 ---
 
@@ -187,7 +187,7 @@ Quelques pièges rencontrés pendant l'atelier, utiles à garder en tête :
 
 ---
 
-## 👩‍💻 Auteure
+## 👩‍💻 Auteur
 
 **Ramatoulaye Diawane** : AI Infrastructure Engineer
 
