@@ -2745,3 +2745,9 @@ opacity:1;
     font-size: clamp(2.4rem, 4.5vw, 4rem);
   }
 }
+
+
+/* Espace sous la section À propos */
+#apropos {
+  padding-bottom: 90px;
+}
