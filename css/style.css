@@ -2725,3 +2725,23 @@ opacity:1;
     margin-top: 8px;
     letter-spacing: 0.5px;
 }
+
+
+/* Correctif accueil sur ordinateur : le contenu ne passe plus sous la navbar */
+@media (min-width: 769px) {
+  html {
+    scroll-padding-top: 90px;
+  }
+
+  #accueil {
+    height: auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+
+  .home-info h1 {
+    font-size: clamp(2.4rem, 4.5vw, 4rem);
+  }
+}
